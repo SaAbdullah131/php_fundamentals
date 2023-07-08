@@ -1,7 +1,6 @@
 
 <?php
 // PHP Supports the Following data types;
-
 /*
     1.String
     2.Integer
@@ -18,16 +17,14 @@ $name="SA Abdullah";
 $learning = "PHP";
 var_dump($name,"\n");
 echo "I am $name and started exploring $learning\n";
- 
+
 // integer
 $integer = 55598;
 var_dump($integer); // checking the variable data type using var_dump() 
-
 // float 
 $floatTypes = 10.343;
 var_dump($floatTypes,"\n");
 echo $floatTypes,"\n";
-
 
 // Boolean 
 $t = true;
