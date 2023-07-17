@@ -26,4 +26,17 @@ var_dump(is_numeric($numString));
 $numAdd= '53.34' + 100;
 var_dump(is_numeric($numAdd));
 
+// php casting string and floats to integers
+
+$num = 2343.234;
+$init_cast = (int)$num;
+echo $init_cast;
+
+echo "<br>";
+
+// cast string to int
+$stToNumber = '2343.23';
+$str_cast = (string)$stToNumber;
+echo $str_cast;
+
  ?>
