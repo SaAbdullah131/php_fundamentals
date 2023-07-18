@@ -3,7 +3,7 @@
 
     // php min() and max functions 
     echo(min(0,150,30,20,-8,-200));
-    echo(max(0,150,30,20,-8,-200));
+    echo(max(0,150,30,20,-8,-200)); 
 
     // php abs function || abs() function return the absolute(positive) value of a number;
     echo(abs(-6.7));
