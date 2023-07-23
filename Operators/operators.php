@@ -15,4 +15,9 @@
     $y=5;
     $result = $x**$y;// exponentiation  where raising $x to the y'th power
     echo $result;
+    // string operators
+    $h="hello";
+    $w='world';
+    $concate= $h.$w;
+    echo $concate;
 ?>
