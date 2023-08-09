@@ -4,6 +4,11 @@ class Fruit{
     public $name;
     public $color;
 
+
+    // construct function
+    function __construct($name){
+        $this->name = $name;
+    }
     // Methods
     function set_name($name){
         $this->name =$name;
@@ -30,7 +35,8 @@ $banana ->set_name("Banana");
 echo $apple->get_name().' ';
 echo $apple->get_color().' ';
 
-echo $banana->get_name();
+echo $banana->get_name().' ';
+var_dump($apple instanceof Fruit);
 
 
 ?>
